@@ -1,0 +1,124 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .input-section {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    }
+     input[type="text"]:hover{
+        background: #aba9a9;
+     }
+
+    button {
+      padding: 10px;
+      background-color: #0306de;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      box-shadow: 0 8px 16px rgba(116, 66, 241, 0.6);
+    }
+
+    button:hover {
+      background-color: #056119;
+      box-shadow: 0 8px 16px rgba(1, 54, 30, 0.6);
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 40px;
+       box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    }
+
+    li.completed label {
+      text-decoration-style: none;
+      color: gray;
+    }
+    li:hover{
+        color:#000006(198, 197, 197);
+        background:linear-gradient(to right,#f7f2f3,#f6dee3,#f9d2da);
+
+    }
+
+    li input[type="checkbox"] {
+      margin-right: 10px;
+      
+    }
+
+    .delete-btn {
+      background-color:  #0306de;
+      color: white;
+      padding: 6px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+       box-shadow: 0 8px 16px rgba(116, 66, 241, 0.6);
+    }
+    
+
+    .delete-btn:hover {
+      background-color: #c82333;
+       box-shadow: 0 8px 16px rgba(160, 65, 64, 0.6);
+    }
+    .alert {
+      display: none;
+      padding: 25px 25px;
+      color: #070101;
+      background-color: #f2dfe1;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom:400px;
+      width: 200px;
+      height:20px;
+     
+    }
